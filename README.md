@@ -23,6 +23,63 @@
 2. 不能跟随原项目升级，或者说升级需要重新验证代码
 
 
-## 使用说明
+## 使用说明
 
+### 配置
 
+1. 项目根目录下 
+
+```
+.rapid-replace.conf
+{
+    projects:[
+        {
+            type:'dir',
+            project:'react-native',
+            dir:'./rapid-replace/react-native/'
+        },
+        {
+            type:'file',
+            project:'react-native',
+            files:[
+                {
+                    origin:'./local-cli/bundle/bundle.js',
+                    new:'./rapid-replace/react-native/local-cli/bundle/bundle.js'
+                },
+                {
+                    origin:'./local-cli/bundle/saveAssets.js',
+                    new:'./rapid-replace/react-native/local-cli/bundle/saveAssets.js'
+                }
+            ]
+        }
+    ]
+}
+```
+
+2. 项目根目录的package.json 文件
+
+````
+rapidReplaceConfig: {
+    projects:[
+        {
+            type:'dir',
+            project:'react-native',
+            dir:'./rapid-replace/react-native/'
+        },
+        {
+            type:'file',
+            project:'react-native',
+            files:[
+                {
+                    origin:'./local-cli/bundle/bundle.js',
+                    new:'./rapid-replace/react-native/local-cli/bundle/bundle.js'
+                },
+                {
+                    origin:'./local-cli/bundle/saveAssets.js',
+                    new:'./rapid-replace/react-native/local-cli/bundle/saveAssets.js'
+                }
+            ]
+        }
+    ]
+}
+```
