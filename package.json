@@ -3,6 +3,11 @@
   "version": "0.0.1",
   "description": "repid replace node modules file",
   "main": "index.js",
+  "scripts": {
+    "install": "node ./scripts/commands/afterInstall.js",
+    "test": "jest",
+    "eslint": "./node_modules/.bin/eslint -c .eslintrc —-ext .js,.jsx src/ "
+  },
   "repository": "https://github.com/dshaobin/rapid-replace.git",
   "author": "dushaobindoudou@gmail.com",
   "license": "MIT"

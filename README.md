@@ -58,7 +58,7 @@
 
 2. 项目根目录的package.json 文件
 
-````
+```
 rapidReplaceConfig: {
     projects:[
         {
@@ -82,4 +82,8 @@ rapidReplaceConfig: {
         }
     ]
 }
+
 ```
+
+### 执行时机
+在
