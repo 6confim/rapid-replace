@@ -1,1 +1,1 @@
-console.log('hello word');
+console.log('========hello word： from rapid replace');

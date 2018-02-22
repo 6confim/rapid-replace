@@ -4,7 +4,7 @@
   "description": "repid replace node modules file",
   "main": "index.js",
   "scripts": {
-    "install": "node ./scripts/commands/afterInstall.js",
+    "install": "node ./index.js",
     "test": "jest",
     "eslint": "./node_modules/.bin/eslint -c .eslintrc —-ext .js,.jsx src/ "
   },
