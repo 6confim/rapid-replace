@@ -1,0 +1,9 @@
+{
+  "name": "rapid-replace",
+  "version": "0.0.1",
+  "description": "repid replace node modules file",
+  "main": "index.js",
+  "repository": "https://github.com/dshaobin/rapid-replace.git",
+  "author": "dushaobindoudou@gmail.com",
+  "license": "MIT"
+}
