@@ -34,7 +34,7 @@
 {
     projects:[
         {
-            type:'dir',
+            type:'dir',// 暂时不支持目录配置
             project:'react-native',
             dir:'./rapid-replace/react-native/'
         },
@@ -62,7 +62,7 @@
 rapidReplaceConfig: {
     projects:[
         {
-            type:'dir',
+            type:'dir', // 暂时不支持目录配置
             project:'react-native',
             dir:'./rapid-replace/react-native/'
         },
@@ -86,4 +86,5 @@ rapidReplaceConfig: {
 ```
 
 ### 执行时机
-在
+在项目安装完成后执行
+
