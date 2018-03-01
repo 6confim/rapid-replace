@@ -1,6 +1,6 @@
 {
   "name": "rapid-replace",
-  "version": "0.0.28",
+  "version": "0.1.0",
   "description": "repid replace node modules file",
   "main": "index.js",
   "scripts": {
